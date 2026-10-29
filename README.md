@@ -112,7 +112,7 @@ O código da aplicação avança aula a aula. A branch `main` representa sempre 
 
 ---
 
-## 📂 Estrutura do Repositório
+## 📂 Estrutura Base do Repositório
 
 ```text
 academia-java-mymovies/
@@ -122,6 +122,8 @@ academia-java-mymovies/
 │   ├── main/java/          # Código-fonte da aplicação Spring Boot
 │   └── main/resources/     # Configurações (application.yml, scripts SQL)
 ├── http/                   # Arquivos de requisição HTTP para o Bruno / IntelliJ
+├── docs/                   # Atividades práticas, materiais de apoio
+├── runtime/                   # Guias básicos das ferramentas utilizadas ao longo do curso 
 └── k8s/                    # Manifestos de Deployment e Service do Kubernetes (Aula 8)
 ```
 
