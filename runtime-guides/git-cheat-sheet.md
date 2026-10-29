@@ -13,11 +13,19 @@
 
 ---
 
+## Pré-Requisito
+
+* Instalação do Git na máquina local
+ - https://git-scm.com/install/ 
+
+---
+
 ## 🚀 1. Setup Inicial do Aluno
 
 ### Opção A: Utilizando Git (Recomendado)
 
 1. Faça o **Fork** do repositório do professor no GitHub.
+   https://github.com/braulioconsani-arch/academia-java-mymovies 
 2. Clone o **seu fork** para a sua máquina local:
    ```bash
    git clone https://github.com/SEU_USUARIO/academia-java-mymovies.git
