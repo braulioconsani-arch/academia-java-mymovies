@@ -31,7 +31,6 @@ public class MovieController {
             new Movie(18L, "Dune", "Denis Villeneuve", 2021),
             new Movie(19L, "Dune: Part Two", "Denis Villeneuve", 2024),
             new Movie(20L, "Oppenheimer", "Christopher Nolan", 2023),
-            new Movie(21L, "Avatar", "James Cameron", 2009)
     );
 
     /**
