@@ -1,0 +1,21 @@
+meta {
+  name: Cria um Filme
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{baseURL}}/api/movies
+  body: json
+  auth: inherit
+}
+
+body:json {
+  { "title": "2_Remove", "director": "Braulio C", "year": 2026}
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+  forwardAuthorizationHeader: false
+}

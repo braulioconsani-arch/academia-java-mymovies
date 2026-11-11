@@ -1,0 +1,20 @@
+meta {
+  name: Pesquisar candidatos
+  type: http
+  seq: 8
+}
+
+get {
+  url: http://localhost:8080/api/tmdb/movies/search?query=Interstellar
+  body: none
+  auth: inherit
+}
+
+params:query {
+  query: Interstellar
+}
+
+settings {
+  encodeUrl: true
+  forwardAuthorizationHeader: false
+}
