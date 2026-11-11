@@ -1,7 +1,6 @@
 package pt.rumos.mymovies.service;
 
 import org.springframework.stereotype.Service;
-import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import pt.rumos.mymovies.dto.*;
 import pt.rumos.mymovies.model.Movie;

@@ -5,12 +5,13 @@ meta {
 }
 
 delete {
-  url: {{baseURL}}/api/movies/22
+  url: {{baseURL}}/api/movies/24
   body: none
   auth: inherit
 }
 
 settings {
   encodeUrl: true
+  timeout: 0
   forwardAuthorizationHeader: false
 }

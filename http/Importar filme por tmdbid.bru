@@ -1,0 +1,21 @@
+meta {
+  name: Importar filme por tmdbid
+  type: http
+  seq: 9
+}
+
+post {
+  url: http://localhost:8080/api/tmdb/movies/{{id}}/import
+  body: none
+  auth: inherit
+}
+
+vars:pre-request {
+  id: 2
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+  forwardAuthorizationHeader: false
+}
